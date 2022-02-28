@@ -35,7 +35,7 @@ export default function Home() {
         content="cosmetics, la bonita, liptint, makeup, fashion"
       />
       <body>
-        <h1 className="text-3xl font-bold">La Bonita</h1>
+        <h1 className="text-3xl font-bold">Main Page</h1>
       </body>
     </div>
   );
