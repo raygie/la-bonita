@@ -6,6 +6,9 @@ module.exports = {
   theme: {
     colors: {
       baseColor: "#fd914f",
+      buttonColor: "#ff8233",
+      hoverColor: "#ff9554",
+      gradientColor: "#ff853b",
     },
     extend: {
       darkMode: {},
