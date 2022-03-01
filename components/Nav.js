@@ -18,8 +18,13 @@ const Nav = () => {
               <Image src={logo} alt="logo" width={60} height={60} />
             </div>
             <div className="text-2xl font-bold">
-              <div className="rotate-90 w-6">LA</div>
-              <div>Bonita.</div>
+              <div
+                className="rotate-90 w-6
+               font-serif"
+              >
+                LA
+              </div>
+              <div className="font-serif pl-1">Bonita.</div>
             </div>
           </div>
         </Link>
@@ -27,21 +32,21 @@ const Nav = () => {
       </div>
 
       <div className="py-5">
-        <ul className="inline-flex">
-          <li className="px-4 font-semibold hover:text-baseColor">
+        <ul className="inline-flex text-lg font-serif font-semibold ">
+          <li className="px-4  hover:text-baseColor">
             <Link href="/product">Products</Link>
           </li>
-          <li className="px-4 font-semibold hover:text-baseColor">
+          <li className="px-4  hover:text-baseColor">
             <Link href="/about">About</Link>
           </li>
-          <li className="px-4 font-semibold hover:text-baseColor">
+          <li className="px-4  hover:text-baseColor">
             <Link href="/review">Reviews</Link>
           </li>
-          <li className="px-4 font-semibold hover:text-baseColor">
+          <li className="px-4 hover:text-baseColor">
             <Link href="/contact">Contact</Link>
           </li>
 
-          <div className="border-l border-slate-200 ml-6 pl-6"></div>
+          <div className="border-l border-slate-200 ml-2 pl-2"></div>
           <div className="px-3">
             <Link href="https://www.facebook.com/LaBonitaCosmeticsByAnafara/">
               <div className="w-8 h-8">
