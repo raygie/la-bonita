@@ -7,7 +7,7 @@ export default function Home() {
     <div>
       <>
         <Head>
-          <title>La Bonita</title>
+          <title>La Bonita kupal</title>
           <link
             rel="icon"
             type="image/png"
