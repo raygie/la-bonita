@@ -1,10 +1,8 @@
 import Head from "next/head";
 
-// * Main Page
-
 export default function Home() {
   return (
-    <div>
+    <>
       <>
         <Head>
           <title>La Bonita</title>
@@ -25,18 +23,16 @@ export default function Home() {
             sizes="180x180"
             href="/apple-touch-icon.png"
           />
-          <link rel="manifest" href="/site.webmanifest" />
-          <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
-          <meta name="theme-color" content="#ffffff" />
         </Head>
+        <meta
+          name="keywords"
+          content="cosmetics, la bonita, liptint, makeup, fashion"
+        />
       </>
-      <meta
-        name="keywords"
-        content="cosmetics, la bonita, liptint, makeup, fashion"
-      />
+
       <body>
         <h1 className="text-3xl font-bold">Main Page</h1>
       </body>
-    </div>
+    </>
   );
 }

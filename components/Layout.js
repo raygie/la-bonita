@@ -1,13 +1,10 @@
-import Nav from "./Nav";
+import NavigationBar from "./NavigationBar";
 
 const Layout = ({ children }) => {
   return (
     <>
-      {/* Import Navigation Bar */}
-      <Nav />
-      <div>
-        <main>{children}</main>
-      </div>
+      <NavigationBar />
+      <main>{children}</main>
     </>
   );
 };
